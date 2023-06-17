@@ -1,0 +1,71 @@
+.tabla {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 200px 120px 120px 120px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 36;
+  padding: 10px;
+  position: absolute;
+  top: 160%;
+  left: 17%;
+  z-index: 500;
+}
+
+#tabla_user {
+  grid-template-columns: 150px 150px 150px 130px 120px 120px 120px 120px 120px;
+}
+
+.titulo {
+  background-color: rgb(50, 80, 150);
+  color: white;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.botones-tabla {
+  background-color: rgb(80, 90, 160);
+  border: none;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  transition: 0.5s ease background-color;
+  cursor: pointer;
+  margin: auto;
+}
+.botones-tabla:hover {
+  background-color: rgb(100, 108, 163);
+}
+
+.contenido {
+  padding: 20px;
+  background-color: rgb(230, 230, 230);
+  border: 1px solid black;
+  word-break: break-word;
+}
+
+.agregar, .agregar_equipo, .agregar_grupo, .agregar_actividad, .pdf, .agregar_clase {
+  background-color: rgb(80, 90, 160);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  width: 150px;
+  height: 45px;
+  position: relative;
+  top: 30px;
+  left: 18%;
+  cursor: pointer;
+  transition: 0.5s ease background-color;
+}
+.agregar:hover, .agregar_equipo:hover, .agregar_grupo:hover, .agregar_actividad:hover, .pdf:hover, .agregar_clase:hover {
+  background-color: rgb(100, 108, 163);
+}
+
+.container_tabla {
+  position: relative;
+  transition: 0.4s margin linear;
+}
+
+.tabla_prestamo {
+  display: none;
+}/*# sourceMappingURL=tabla.css.map */

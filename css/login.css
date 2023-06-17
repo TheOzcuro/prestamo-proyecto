@@ -1,0 +1,56 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rgb(62, 182, 212);
+}
+
+.login_container {
+  background-color: rgb(250, 250, 250);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 30px 20px 350px black;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  width: 96%;
+  background-color: transparent;
+  border: none;
+  height: 30px;
+  border-bottom: 4px solid black;
+  outline: none;
+  transition: 0.5s border-bottom ease;
+  border-radius: 2px;
+}
+input:focus {
+  border-color: rgb(62, 120, 170);
+}
+
+.input_container {
+  font-size: 20px;
+}
+
+button {
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  transition: 0.8s background-color, color ease;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}/*# sourceMappingURL=login.css.map */
